@@ -21,9 +21,6 @@ export default {
       taskList: store.getters.getTask
     }
   },
-  mounted(){
-
-  },
   methods:{
     addNewItem(){
       let task = {
